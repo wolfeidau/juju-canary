@@ -1,0 +1,4 @@
+{>"layouts/master" /}
+{<body}
+  <div>Welcome!</div>
+{/body}
