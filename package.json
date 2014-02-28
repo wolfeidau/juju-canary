@@ -9,7 +9,9 @@
     "express": "3.4.8",
     "adaro": "~0.1.5",
     "dustjs-linkedin": "~2.3.3",
-    "dustjs-helpers": "~1.1.2"
+    "dustjs-helpers": "~1.1.2",
+    "require-directory": "~1.2.0",
+    "debug": "~0.7.4"
   },
   "devDependencies": {
     "chai": "~1.9.0",

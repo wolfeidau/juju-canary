@@ -1,11 +1,6 @@
 'use strict';
-/**
- * Module dependencies.
- */
-
 var express = require('express');
 var routes = require('./routes');
-var user = require('./routes/user');
 var path = require('path');
 var dustjs = require('adaro');
 
@@ -32,8 +27,8 @@ exports.configure = function(cb) {
     app.use(express.errorHandler());
   }
 
-  app.get('/', routes.index);
-  app.get('/users', user.list);
+  // load the routes
+  routes(app);
 
   cb(null, app);
 };
